@@ -19,5 +19,5 @@
         );
         $config->storage = "db/";
         $config->debug = true;
-                include("core.php");
+                include("../bin/core.php");
 ?>
