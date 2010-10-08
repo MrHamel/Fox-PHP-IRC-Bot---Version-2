@@ -1,0 +1,27 @@
+This is Fox - Version 2.
+
+This bot was originally made by Mitchell Cooper (IRC Nickname: Cooper). 
+This bot has been on Github for a while, so i got board and started finding ways to add features to it.
+Now this forked to be version 2 because Mitchell has gave up on PHP and has moved on to Perl.
+
+
+If you are:
+
+A. IRC N00b
+B. PHP N00b
+
+Please do not download this program because it will cause you headaches.
+
+New Features In This Version Are:
+
+Weather
+CTCP Responses (Time, Ping, Version)
+Command Prefix's
+Root Kill Switch - You don't run anything as root unless it requires root power. This program does not.
+Next Planned Features:
+
+Ping Tester
+Google/YouTube/IMDB Search Queries
+FML/Bash.org Responses
+Vinny/Mr. T/Jack Bauer/Chuck Norris Responses
+Google Translator
