@@ -97,6 +97,7 @@ $db->datadir = "db/";
 					# this is messy and wastes resources, yet necessary
 					$this->channel[$data] = $rawdata[5]; 
 					$this->args[$data] = trim($rawdata[6]);
+					
 	if (!$this->ignore[$this->h[$this->nick[$data]]]) {
 					if (strtolower($this->ex[3]) == ":".$config->cp."ignore") {
 						if ($this->ownerhost[strtolower($this->host[$data])]) {
