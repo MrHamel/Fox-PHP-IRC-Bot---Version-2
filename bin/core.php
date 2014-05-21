@@ -8,10 +8,14 @@ echo(" |  _/ _ \\\\ \\/ /| '_ \\ / _ \\| __|\r\n");
 echo(" | || (_) |>  < | |_) | (_) | |_ \r\n");
 echo(" |_| \___//_/\_\|_.__/ \___/ \__|\r\n");
 echo("fox php bot - flatfile version!\r\n");
+
 if ($config->debug) { echo("Debug:\r\n"); }
+
 declare(ticks=1);
+
 pcntl_signal(SIGTERM, "sig_handler");
 pcntl_signal(SIGHUP, "sig_handler");
+
 require_once("../db/flatfile.php");
 $db = new Flatfile();
 $db->datadir = "db/";
